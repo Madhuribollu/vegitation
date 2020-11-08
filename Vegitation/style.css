@@ -1,0 +1,690 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#phone{
+    display: none;
+}
+nav{
+	width: 100%;
+	height: 85px;
+	background: rgba(255, 255, 255, 0.65);
+	display: inline-flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+}
+nav h1{
+    font-variant: small-caps;
+	font-size: 40px;
+    letter-spacing: .10rem;
+    margin-top: 1%;
+    color: #303952;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+}
+nav ul li{
+    font-variant: small-caps;
+	font-size: 1rem;
+    font-weight: 650;
+    margin:6% 5%;
+    margin-left: 10%;
+    letter-spacing: 2.7px;
+    color: #303952;
+    font-weight: 750;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #303952;
+}
+#home h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #303952;
+}
+#home h2{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #303952;
+}
+#home h3{
+    text-align: center;
+    font-size: 60px;
+    margin-top: -20px;
+    color: #303952;
+}
+#home button{
+    font-size: .90rem;
+    font-weight: bolder;
+    padding: 15px 55px;
+    border-color:#303952;
+    color: #303952;
+}
+#home button:hover{
+    background-color: #303952;
+    color: blanchedalmond;
+    transition: .55s ease-in-out;
+}
+#home button a{
+    color: #303952;
+    text-decoration: none;
+}
+#home button a:hover{
+    color: blanchedalmond;
+}
+
+#home{
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 550px;
+}
+#open{
+    height: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url(bg.jpg);
+    transition: 1.2s ease-in;
+}
+.admins{
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin: 2% 4%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+}
+.admins img{
+    width: 80%;
+    height: 275px;
+}
+#about h1{
+    font-size: 70px;
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#about h2{
+    font-size: 25px;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: -3.8%;
+    letter-spacing: 2px;
+}
+#about{
+    margin-top: 2%;
+}
+#about-view{
+    height: 30px;
+}
+#contact-view{
+    height: 30px;
+}
+#join-view{
+    height: 30px;
+}
+.content{
+    width: 90%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.45);
+    display: flex;
+    margin: 0 auto;
+}
+.content img{
+    width: 45%;
+    height: 370px;
+    float: left;
+}
+.content p{
+    padding: 20px 20px;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+    font-variant: small-caps;
+    word-spacing: 4px;
+}
+#contact{
+    height: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url(bg.jpg);
+    text-align: center;
+    margin-top: 2%;
+}
+#contact h1{
+    font-size: 70px;
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #303952;
+}
+#contact h2{
+    font-size: 22px;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: -3.8%;
+    letter-spacing: 2px;
+    color: #303952;
+}
+#contact img{
+    width: 75px;
+    height: 75px;
+    margin: 2% 2%;
+}
+#contact img:hover{
+    background:linear-gradient(#c7ecee,#95afc0);
+    width: 75px;
+    height: 75px;
+    opacity: 0.70;
+    box-shadow: 10px 10px 5px 5px grey;
+    position: relative;
+    border-radius: 50%;
+}
+#contact input{
+    width: 25%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: .65%;
+    font-variant: small-caps;
+    background: rgba(255, 255, 255, 0.45);
+    display: block;
+    color: #303952;
+}
+#contact textarea{
+   width: 35%;
+   border-color: inherit;
+   background: inherit;
+   margin-top: 2%;
+   color: #303952;
+}
+#contact button{
+    font-size: .90rem;
+    font-weight: bolder;
+    padding: 15px 55px;
+    border-color:#303952;
+    color: #303952;
+    margin-top: 2%;
+}
+#contact button:hover{
+    background-color: #303952;
+    color: blanchedalmond;
+    transition: .55s ease-in-out;
+}
+#join{
+    height: 100%;
+    background-size: 100% 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+#join h1{
+    font-size: 70px;
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#join h2{
+    font-size: 25px;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: -3.8%;
+    letter-spacing: 2px;
+}
+#join input{
+    width: 30%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: .65%;
+    font-variant: small-caps;
+    background: rgba(255, 255, 255, 0.45);
+    display: block;
+}
+#join textarea{
+    width: 35%;
+    border-color: inherit;
+    background: inherit;
+    margin-top: 2%;
+    color: #303952;
+}
+#join button{
+    font-size: .90rem;
+    font-weight: bolder;
+    padding: 15px 55px;
+    border-color:#303952;
+    color: #303952;
+    margin-top: 2%;
+}
+#join button:hover{
+    background-color: #303952;
+    color: blanchedalmond;
+    transition: .55s ease-in-out;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+    background: #303952;
+    color: #fff;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 12px;
+    line-height: 88px;
+    margin-top: 1%;
+}
+footer img{
+    width: 55px;
+    height: 65px;
+}
+.filter{
+   width: 10%;
+   margin: 0 auto;
+}
+.filter ul{
+    list-style: none;
+    background: linear-gradient(#c7ecee,#95afc0);
+    padding: 5px 10px;
+}
+.filter ul li{
+    padding: 1% 2%;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+}
+.filter ul li ul li{
+    display: none;
+}
+.filter ul li a{
+    text-decoration: none;
+    color: #303952;
+
+}
+.filter ul li:hover ul li{
+    display: block;
+}
+#Vegetables{
+    height: 100%;
+    transition: 1.2s ease-in;
+}
+#Vegetables h1{
+    font-size: 70px;
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#Vegetables h2{
+    font-size: 22px;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: -3.8%;
+    letter-spacing: 2px;
+}
+#Vegetables table img{
+    width: 25%;
+    height: 70px;
+}
+
+
+
+
+
+#groceries{
+    height: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url(bg.jpg);
+    transition: 1.2s ease-in;
+}
+#groceries h1{
+    font-size: 70px;
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #303952;
+}
+#groceries h2{
+    font-size: 22px;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: -3.8%;
+    letter-spacing: 2px;
+    color: #303952;
+}
+
+
+
+#fruits{
+    height: 100%;
+    transition: 1.2s ease-in;
+}
+#fruits h1{
+    font-size: 70px;
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#fruits h2{
+    font-size: 22px;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: -3.8%;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+#dairy{
+    height: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url(bg.jpg);
+    transition: 1.2s ease-in;
+}
+#dairy h1{
+    font-size: 70px;
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #303952;
+}
+#dairy h2{
+    font-size: 22px;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: -3.8%;
+    letter-spacing: 2px;
+    color: #303952;
+}
+
+#more{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    #open{
+        display: none;
+    }
+    #about h1{
+        font-size: 2.5rem;
+    }
+    #about h2{
+        font-size: 1.5rem;
+    }
+    #about .admins{
+        display: none;
+    }
+    #about .content{
+        display: block;
+    }
+    #about .content img{
+        float: none;
+        width: 97%;
+        height: 200px;
+    }
+    #about .content p{
+        font-size: 1rem;
+    }
+    #contact h1{
+        font-size: 2.5rem;
+    }
+    #contact h2{
+        font-size: 1.5rem;
+    }
+    #contact input{
+        width: 60%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    #contact textarea{
+        width:60%;
+    }
+    #contact img{
+        width: 45px;
+        height: 45px;
+    }
+    #contact img:hover{
+        width: 45px;
+        height: 45px;
+    }
+    #join h1{
+        font-size: 2.5rem;
+    }
+    #join h2{
+        font-size: 1.5rem;
+    }
+    #join input{
+        width: 60%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    #join textarea{
+        width: 60%;
+    }
+    #about-view{
+        height: 0px;
+    }#contact-view{
+        height: 0px;
+    }#join-view{
+        height: 0px;
+    }
+    footer h2{
+        font-size: .85rem;
+        line-height: 12px;
+    }
+    footer img{
+        width: 25px;
+        height: 25px;
+    }
+    #phone{
+        display: block;
+        height: 100%;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-image: url(bg.jpg);
+        transition: 1.2s ease-in;
+        text-align: center;
+    }
+    #phone .nav{
+        width: 100%;
+	    height: 55px;
+	    background: rgba(255, 255, 255, 0.79);
+        position: fixed;
+        top: 0;
+        border-bottom: none;
+        color: #303952;
+        display: flex;
+        justify-content: space-between;
+    }
+    #phone .nav img{
+        width: 35px;
+    }
+    #phone #view-home h1{
+        font-size: 55px;
+        color: #303952;
+    }
+    #phone #view-home h2{
+        color: #303952;
+    }
+    #phone #view-home button{
+        font-size: .90rem;
+        font-weight: bolder;
+        padding: 15px 55px;
+        border-color:#303952;
+        color: #303952;
+    }
+    #phone #view-home button:hover{
+        background-color: #303952;
+        color: blanchedalmond;
+        transition: .55s ease-in-out;
+    }
+    #phone #view-home button a{
+        color: #303952;
+        text-decoration: none;
+    }
+    #phone #view-home button a:hover{
+        color: blanchedalmond;
+    }
+    .filter ul{
+        list-style: none;
+        background: linear-gradient(#c7ecee,#95afc0);
+        padding: 2.5px 10px;
+        width: 110px;
+    }
+    #Vegetables h1{
+        font-size: 2rem;
+    }
+    #Vegetables h2{
+        font-size: 1rem;
+        margin-top: -2%;
+    }
+    #groceries h1{
+        font-size: 2rem;
+    }
+    #groceries h2{
+        font-size: 1rem;
+        margin-top: -2%;
+    }
+    #fruits h1{
+        font-size: 2rem;
+    }
+    #fruits h2{
+        font-size: 1rem;
+        margin-top: -2%;
+    }
+    #dairy h1{
+        font-size: 2rem;
+    }
+    #dairy h2{
+        font-size: 1rem;
+        margin-top: -2%;
+    }
+    
+}
+
+
+
+
+
+
+@media (max-width: 1024px){
+    nav{
+        background: rgba(255, 255, 255, 0.65);
+    }
+    nav h1{
+        font-variant: small-caps;
+        font-size: 30px;
+        letter-spacing: .10rem;
+        margin-top: 1%;
+        color: #303952;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+    }
+    nav ul li{
+        font-variant: small-caps;
+        font-size: 1rem;
+        font-weight: 650;
+        margin:6% 5%;
+        margin-left: 3.5%;
+        letter-spacing: 2.7px;
+        color: #303952;
+        font-weight: 750;
+    }
+    #about h1{
+        font-size: 2rem;
+    }
+    #about h2{
+        font-size: 1rem;
+        margin-top: -2%;
+    }
+    #about .content p{
+        font-size: 1.1rem;
+    }
+    #contact h1{
+        font-size: 2rem;
+    }
+    #contact h2{
+        font-size: 1rem;
+        margin-top: -2%;
+    }
+    #contact input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    #contact img{
+        width: 45px;
+        height: 45px;
+    }
+    #contact img:hover{
+        width: 45px;
+        height: 45px;
+    }
+    #join h1{
+        font-size: 2rem;
+    }
+    #join h2{
+        font-size: 1rem;
+        margin-top: -2%;
+    }
+    #join input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    .filter ul{
+        list-style: none;
+        background: linear-gradient(#c7ecee,#95afc0);
+        padding: 5px 10px;
+        width: 110px;
+    }
+    #Vegetables h1{
+        font-size: 2.5rem;
+    }
+    #Vegetables h2{
+        font-size: 1.5rem;
+        margin-top: -2%;
+    }
+    #groceries h1{
+        font-size: 2.5rem;
+    }
+    #groceries h2{
+        font-size: 1.5rem;
+        margin-top: -2%;
+    }
+    #fruits h1{
+        font-size: 2.5rem;
+    }
+    #fruits h2{
+        font-size: 1.5rem;
+        margin-top: -2%;
+    }
+    #dairy h1{
+        font-size: 2.5rem;
+    }
+    #dairy h2{
+        font-size: 1.5rem;
+        margin-top: -2%;
+    }
+    footer img{
+        width: 35px;
+        height: 35px;
+    }
+}
